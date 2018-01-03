@@ -26,4 +26,4 @@ the ui server will run on http://localhost:3000/
 
 ## Screenshots
 
-[alt text](https://raw.githubusercontent.com/vitaliiznak/nodejs_rabbit_mq/master/documentation/Screenshot1.jpg "Screenshot 1")
+[Screenshot 1](https://raw.githubusercontent.com/vitaliiznak/nodejs_rabbit_mq/master/documentation/Screenshot1.jpg "Screenshot 1")
