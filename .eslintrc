@@ -1,0 +1,62 @@
+{
+  "extends": ["standard", "standard-react"],
+  "globals": {
+      "assert": false,
+      "fetch": false,
+      "describe": false,
+      "it": false,
+      "before": false,
+      "beforeEach": false,
+      "after": false,
+      "afterEach": false,
+      "browser": true,
+      "$": true,
+      "process": true,
+      "location": true,
+      "Blob": true
+  },
+  "parser": "babel-eslint",
+  "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true,
+            "experimentalDecorators": true
+        }
+  },
+  "plugins": [
+    "react"
+  ],
+  "rules": {
+    "no-unused-vars": ["warn", { "vars": "all", "args": "after-used" }],
+    "camelcase": "warn",
+    "eqeqeq": "off",
+    "space-before-function-paren" :"off",
+    "quotes":"off",
+    "semi":"off",
+    "no-undef":"warn",
+    "import/no-duplicates": "warn",
+    "no-useless-constructor": "warn",
+    "spaced-comment":"off",
+    "no-return-assign" : "warn",
+    "no-trailing-spaces": "off",
+    "no-constant-condition":"warn",
+    "jsx-quotes": "off",
+    "react/self-closing-comp": "warn",
+    "react/prop-types": "warn",
+    "react/jsx-no-bind": "warn",
+    "react/jsx-indent": "warn",
+    "eol-last": "warn",
+    "react/jsx-boolean-value": "off",
+    "react/jsx-no-duplicate-props": 1,
+    "react/no-unused-prop-types":"warn",
+    "no-template-curly-in-string": "warn",
+    "padded-blocks": "off",
+    "space-infix-ops": "off",
+    "comma-dangle": "off",
+    "indent": "warn",
+    "react/jsx-tag-spacing": "warn",
+    "space-in-parens": "warn"
+  },
+  "env": {
+    "jquery": true
+  }
+}

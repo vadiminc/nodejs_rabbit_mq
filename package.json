@@ -1,0 +1,12 @@
+{
+  "name": "nodejs_rabbit_mq",
+  "version": "1.0.0",
+  "description": "## How to run ### Prerequisites",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "install_all": "npm install & npm install --prefix ./ui & npm install --prefix ./microservice_tasks & npm install --prefix ./microservice_api",
+    "dev_all": "concurrently \"npm start --prefix ./ui\" \"npm run dev --prefix ./microservice_tasks\" \"npm run dev --prefix ./microservice_api\""
+  },
+  "author": "Vitalii Znak",
+  "license": "ISC"
+}
